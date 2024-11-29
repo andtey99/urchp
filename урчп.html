@@ -1,0 +1,4029 @@
+<!DOCTYPE html>
+<!-- saved from url=(0086)https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&quizId=191333 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>SyncShare</title>
+    <link href="./урчп_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./урчп_files/materialdesignicons.min.css">
+    <link rel="stylesheet" href="./урчп_files/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./урчп_files/default.css">
+    <link rel="stylesheet" href="./урчп_files/monokai.min.css">
+    <link rel="stylesheet" href="./урчп_files/highlightjs-copy.min.css">
+    <link href="./урчп_files/css" rel="stylesheet">
+    <link rel="stylesheet" href="./урчп_files/docs.css">
+
+    <style>
+        .card-header .fa {
+          transition: .3s transform ease-in-out;
+        }
+        .card-header .collapsed .fa {
+          transform: rotate(90deg);
+        }
+        .bg-blue-300 {
+            background-color: #6ea8fe;
+        }
+        pre > code {
+            font-family: 'JetBrains Mono';font-size: 12px;
+        }
+    </style>
+    <style>
+        tr > td.hljs-ln-line {
+          padding-left: 5px;
+        }
+
+        .hljs-ln-numbers {
+          text-align: right;
+        }
+
+        .hljs-ln-line.hljs-ln-n {
+          padding-right: 5px;
+        }
+    </style>
+<style type="text/css">.CtxtMenu_InfoClose {  top:.2em; right:.2em;}
+.CtxtMenu_InfoContent {  overflow:auto; text-align:left; font-size:80%;  padding:.4em .6em; border:1px inset; margin:1em 0px;  max-height:20em; max-width:30em; background-color:#EEEEEE;  white-space:normal;}
+.CtxtMenu_Info.CtxtMenu_MousePost {outline:none;}
+.CtxtMenu_Info {  position:fixed; left:50%; width:auto; text-align:center;  border:3px outset; padding:1em 2em; background-color:#DDDDDD;  color:black;  cursor:default; font-family:message-box; font-size:120%;  font-style:normal; text-indent:0; text-transform:none;  line-height:normal; letter-spacing:normal; word-spacing:normal;  word-wrap:normal; white-space:nowrap; float:none; z-index:201;  border-radius: 15px;                     /* Opera 10.5 and IE9 */  -webkit-border-radius:15px;               /* Safari and Chrome */  -moz-border-radius:15px;                  /* Firefox */  -khtml-border-radius:15px;                /* Konqueror */  box-shadow:0px 10px 20px #808080;         /* Opera 10.5 and IE9 */  -webkit-box-shadow:0px 10px 20px #808080; /* Safari 3 & Chrome */  -moz-box-shadow:0px 10px 20px #808080;    /* Forefox 3.5 */  -khtml-box-shadow:0px 10px 20px #808080;  /* Konqueror */  filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color="gray", Positive="true"); /* IE */}
+</style><style type="text/css">.CtxtMenu_MenuClose {  position:absolute;  cursor:pointer;  display:inline-block;  border:2px solid #AAA;  border-radius:18px;  -webkit-border-radius: 18px;             /* Safari and Chrome */  -moz-border-radius: 18px;                /* Firefox */  -khtml-border-radius: 18px;              /* Konqueror */  font-family: "Courier New", Courier;  font-size:24px;  color:#F0F0F0}
+.CtxtMenu_MenuClose span {  display:block; background-color:#AAA; border:1.5px solid;  border-radius:18px;  -webkit-border-radius: 18px;             /* Safari and Chrome */  -moz-border-radius: 18px;                /* Firefox */  -khtml-border-radius: 18px;              /* Konqueror */  line-height:0;  padding:8px 0 6px     /* may need to be browser-specific */}
+.CtxtMenu_MenuClose:hover {  color:white!important;  border:2px solid #CCC!important}
+.CtxtMenu_MenuClose:hover span {  background-color:#CCC!important}
+.CtxtMenu_MenuClose:hover:focus {  outline:none}
+</style><style type="text/css">.CtxtMenu_Menu {  position:absolute;  background-color:white;  color:black;  width:auto; padding:5px 0px;  border:1px solid #CCCCCC; margin:0; cursor:default;  font: menu; text-align:left; text-indent:0; text-transform:none;  line-height:normal; letter-spacing:normal; word-spacing:normal;  word-wrap:normal; white-space:nowrap; float:none; z-index:201;  border-radius: 5px;                     /* Opera 10.5 and IE9 */  -webkit-border-radius: 5px;             /* Safari and Chrome */  -moz-border-radius: 5px;                /* Firefox */  -khtml-border-radius: 5px;              /* Konqueror */  box-shadow:0px 10px 20px #808080;         /* Opera 10.5 and IE9 */  -webkit-box-shadow:0px 10px 20px #808080; /* Safari 3 & Chrome */  -moz-box-shadow:0px 10px 20px #808080;    /* Forefox 3.5 */  -khtml-box-shadow:0px 10px 20px #808080;  /* Konqueror */}
+.CtxtMenu_MenuItem {  padding: 1px 2em;  background:transparent;}
+.CtxtMenu_MenuArrow {  position:absolute; right:.5em; padding-top:.25em; color:#666666;  font-family: null; font-size: .75em}
+.CtxtMenu_MenuActive .CtxtMenu_MenuArrow {color:white}
+.CtxtMenu_MenuArrow.CtxtMenu_RTL {left:.5em; right:auto}
+.CtxtMenu_MenuCheck {  position:absolute; left:.7em;  font-family: null}
+.CtxtMenu_MenuCheck.CtxtMenu_RTL { right:.7em; left:auto }
+.CtxtMenu_MenuRadioCheck {  position:absolute; left: .7em;}
+.CtxtMenu_MenuRadioCheck.CtxtMenu_RTL {  right: .7em; left:auto}
+.CtxtMenu_MenuInputBox {  padding-left: 1em; right:.5em; color:#666666;  font-family: null;}
+.CtxtMenu_MenuInputBox.CtxtMenu_RTL {  left: .1em;}
+.CtxtMenu_MenuComboBox {  left:.1em; padding-bottom:.5em;}
+.CtxtMenu_MenuSlider {  left: .1em;}
+.CtxtMenu_SliderValue {  position:absolute; right:.1em; padding-top:.25em; color:#333333;  font-size: .75em}
+.CtxtMenu_SliderBar {  outline: none; background: #d3d3d3}
+.CtxtMenu_MenuLabel {  padding: 1px 2em 3px 1.33em;  font-style:italic}
+.CtxtMenu_MenuRule {  border-top: 1px solid #DDDDDD;  margin: 4px 3px;}
+.CtxtMenu_MenuDisabled {  color:GrayText}
+.CtxtMenu_MenuActive {  background-color: #606872;  color: white;}
+.CtxtMenu_MenuDisabled:focus {  background-color: #E8E8E8}
+.CtxtMenu_MenuLabel:focus {  background-color: #E8E8E8}
+.CtxtMenu_ContextMenu:focus {  outline:none}
+.CtxtMenu_ContextMenu .CtxtMenu_MenuItem:focus {  outline:none}
+.CtxtMenu_SelectionMenu {  position:relative; float:left;  border-bottom: none; -webkit-box-shadow:none; -webkit-border-radius:0px; }
+.CtxtMenu_SelectionItem {  padding-right: 1em;}
+.CtxtMenu_Selection {  right: 40%; width:50%; }
+.CtxtMenu_SelectionBox {  padding: 0em; max-height:20em; max-width: none;  background-color:#FFFFFF;}
+.CtxtMenu_SelectionDivider {  clear: both; border-top: 2px solid #000000;}
+.CtxtMenu_Menu .CtxtMenu_MenuClose {  top:-10px; left:-10px}
+</style><style type="text/css">.hljs-ln{border-collapse:collapse}.hljs-ln td{padding:0}.hljs-ln-n:before{content:attr(data-line-number)}</style><style id="MJX-CHTML-styles">
+mjx-container[jax="CHTML"] {
+  line-height: 0;
+}
+
+mjx-container [space="1"] {
+  margin-left: .111em;
+}
+
+mjx-container [space="2"] {
+  margin-left: .167em;
+}
+
+mjx-container [space="3"] {
+  margin-left: .222em;
+}
+
+mjx-container [space="4"] {
+  margin-left: .278em;
+}
+
+mjx-container [space="5"] {
+  margin-left: .333em;
+}
+
+mjx-container [rspace="1"] {
+  margin-right: .111em;
+}
+
+mjx-container [rspace="2"] {
+  margin-right: .167em;
+}
+
+mjx-container [rspace="3"] {
+  margin-right: .222em;
+}
+
+mjx-container [rspace="4"] {
+  margin-right: .278em;
+}
+
+mjx-container [rspace="5"] {
+  margin-right: .333em;
+}
+
+mjx-container [size="s"] {
+  font-size: 70.7%;
+}
+
+mjx-container [size="ss"] {
+  font-size: 50%;
+}
+
+mjx-container [size="Tn"] {
+  font-size: 60%;
+}
+
+mjx-container [size="sm"] {
+  font-size: 85%;
+}
+
+mjx-container [size="lg"] {
+  font-size: 120%;
+}
+
+mjx-container [size="Lg"] {
+  font-size: 144%;
+}
+
+mjx-container [size="LG"] {
+  font-size: 173%;
+}
+
+mjx-container [size="hg"] {
+  font-size: 207%;
+}
+
+mjx-container [size="HG"] {
+  font-size: 249%;
+}
+
+mjx-container [width="full"] {
+  width: 100%;
+}
+
+mjx-box {
+  display: inline-block;
+}
+
+mjx-block {
+  display: block;
+}
+
+mjx-itable {
+  display: inline-table;
+}
+
+mjx-row {
+  display: table-row;
+}
+
+mjx-row > * {
+  display: table-cell;
+}
+
+mjx-mtext {
+  display: inline-block;
+}
+
+mjx-mstyle {
+  display: inline-block;
+}
+
+mjx-merror {
+  display: inline-block;
+  color: red;
+  background-color: yellow;
+}
+
+mjx-mphantom {
+  visibility: hidden;
+}
+
+_::-webkit-full-page-media, _:future, :root mjx-container {
+  will-change: opacity;
+}
+
+mjx-assistive-mml {
+  position: absolute !important;
+  top: 0px;
+  left: 0px;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 1px 0px 0px 0px !important;
+  border: 0px !important;
+  display: block !important;
+  width: auto !important;
+  overflow: hidden !important;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+mjx-assistive-mml[display="block"] {
+  width: 100% !important;
+}
+
+mjx-c::before {
+  display: block;
+  width: 0;
+}
+
+.MJX-TEX {
+  font-family: MJXZERO, MJXTEX;
+}
+
+.TEX-B {
+  font-family: MJXZERO, MJXTEX-B;
+}
+
+.TEX-I {
+  font-family: MJXZERO, MJXTEX-I;
+}
+
+.TEX-MI {
+  font-family: MJXZERO, MJXTEX-MI;
+}
+
+.TEX-BI {
+  font-family: MJXZERO, MJXTEX-BI;
+}
+
+.TEX-S1 {
+  font-family: MJXZERO, MJXTEX-S1;
+}
+
+.TEX-S2 {
+  font-family: MJXZERO, MJXTEX-S2;
+}
+
+.TEX-S3 {
+  font-family: MJXZERO, MJXTEX-S3;
+}
+
+.TEX-S4 {
+  font-family: MJXZERO, MJXTEX-S4;
+}
+
+.TEX-A {
+  font-family: MJXZERO, MJXTEX-A;
+}
+
+.TEX-C {
+  font-family: MJXZERO, MJXTEX-C;
+}
+
+.TEX-CB {
+  font-family: MJXZERO, MJXTEX-CB;
+}
+
+.TEX-FR {
+  font-family: MJXZERO, MJXTEX-FR;
+}
+
+.TEX-FRB {
+  font-family: MJXZERO, MJXTEX-FRB;
+}
+
+.TEX-SS {
+  font-family: MJXZERO, MJXTEX-SS;
+}
+
+.TEX-SSB {
+  font-family: MJXZERO, MJXTEX-SSB;
+}
+
+.TEX-SSI {
+  font-family: MJXZERO, MJXTEX-SSI;
+}
+
+.TEX-SC {
+  font-family: MJXZERO, MJXTEX-SC;
+}
+
+.TEX-T {
+  font-family: MJXZERO, MJXTEX-T;
+}
+
+.TEX-V {
+  font-family: MJXZERO, MJXTEX-V;
+}
+
+.TEX-VB {
+  font-family: MJXZERO, MJXTEX-VB;
+}
+
+mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {
+  font-family: MJXZERO, MJXTEX-S1, MJXTEX-S4, MJXTEX, MJXTEX-A ! important;
+}
+
+@font-face /* 0 */ {
+  font-family: MJXZERO;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Zero.woff") format("woff");
+}
+
+@font-face /* 1 */ {
+  font-family: MJXTEX;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff") format("woff");
+}
+
+@font-face /* 2 */ {
+  font-family: MJXTEX-B;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Bold.woff") format("woff");
+}
+
+@font-face /* 3 */ {
+  font-family: MJXTEX-I;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff") format("woff");
+}
+
+@font-face /* 4 */ {
+  font-family: MJXTEX-MI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Italic.woff") format("woff");
+}
+
+@font-face /* 5 */ {
+  font-family: MJXTEX-BI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-BoldItalic.woff") format("woff");
+}
+
+@font-face /* 6 */ {
+  font-family: MJXTEX-S1;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff") format("woff");
+}
+
+@font-face /* 7 */ {
+  font-family: MJXTEX-S2;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff") format("woff");
+}
+
+@font-face /* 8 */ {
+  font-family: MJXTEX-S3;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff") format("woff");
+}
+
+@font-face /* 9 */ {
+  font-family: MJXTEX-S4;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff") format("woff");
+}
+
+@font-face /* 10 */ {
+  font-family: MJXTEX-A;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_AMS-Regular.woff") format("woff");
+}
+
+@font-face /* 11 */ {
+  font-family: MJXTEX-C;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Regular.woff") format("woff");
+}
+
+@font-face /* 12 */ {
+  font-family: MJXTEX-CB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Bold.woff") format("woff");
+}
+
+@font-face /* 13 */ {
+  font-family: MJXTEX-FR;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Regular.woff") format("woff");
+}
+
+@font-face /* 14 */ {
+  font-family: MJXTEX-FRB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Bold.woff") format("woff");
+}
+
+@font-face /* 15 */ {
+  font-family: MJXTEX-SS;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Regular.woff") format("woff");
+}
+
+@font-face /* 16 */ {
+  font-family: MJXTEX-SSB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Bold.woff") format("woff");
+}
+
+@font-face /* 17 */ {
+  font-family: MJXTEX-SSI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Italic.woff") format("woff");
+}
+
+@font-face /* 18 */ {
+  font-family: MJXTEX-SC;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Script-Regular.woff") format("woff");
+}
+
+@font-face /* 19 */ {
+  font-family: MJXTEX-T;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff") format("woff");
+}
+
+@font-face /* 20 */ {
+  font-family: MJXTEX-V;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff") format("woff");
+}
+
+@font-face /* 21 */ {
+  font-family: MJXTEX-VB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff") format("woff");
+}
+
+</style>
+<script>
+  function replaceTeXLinksInText() {
+      // Находим все параграфы
+      const paragraphs = document.querySelectorAll('p');
+
+      paragraphs.forEach(paragraph => {
+          // Ищем все ссылки в тексте параграфа
+          const texLinkRegex = /https:\/\/moodle\.uio\.csu\.ru\/filter\/tex\/displaytex\.php\?texexp=([^<\s]+)/g;
+          let paragraphHTML = paragraph.innerHTML;
+
+          // Заменяем ссылки на математические формулы
+          paragraphHTML = paragraphHTML.replace(texLinkRegex, (match, texExp) => {
+              const decodedTeX = decodeURIComponent(texExp.trim());
+              return `\\(${decodedTeX}\\)`; // MathJax формат
+          });
+
+          // Обновляем содержимое параграфа
+          paragraph.innerHTML = paragraphHTML;
+      });
+      let vars = document.querySelectorAll('div.card-body > input');
+      for (let elem of vars) {
+        elem.nextSibling.textContent = `\\(${elem.nextSibling.textContent}\\)`;
+      }
+      let correctAns = document.querySelectorAll('div.card-body > strong');
+      for (let ans of correctAns) {
+        ans.innerHTML = `<strong>\\(${ans.textContent}\\) CORRECT!</strong>`;
+      }
+      let tdElem = document.querySelectorAll('div.card-body > table > tbody > tr > td:nth-child(1)');
+      for (let el of tdElem) {
+        el.textContent = `\\(${el.textContent}\\)`;
+      }
+
+      // Перерисовываем MathJax
+      if (window.MathJax) {
+          MathJax.typesetPromise();
+      }
+  }
+
+  // Запускаем функцию после загрузки страницы
+  window.onload = replaceTeXLinksInText;
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</head>
+<body>
+<div id="content" class="main-container">
+    <div id="quiz-container">
+        <h1 class="text-center mb-5">Тест повторной итоговой аттестации</h1>
+            <div class="row">
+                
+
+<div id="q1" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 1
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q1">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти решение начально-краевой задачи<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_%7Btt%7D%20-%20u_%7Bxx%7D%20%3D%20%5Csin%20%5Cpi%20x%2C%20%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%280%2Ct%29%20%3D%200%2C%20%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%281%2Ct%29%20%3D%200%2C%20%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28x%2C0%29%20%3D%200%2C%20%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_t%28x%2C0%29%20%3D%200%20</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = (1 - \cos t ) \sin \pi x
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" checked="" disabled="">
+    
+        
+        <strong>
+            u = \frac{1}{\pi^2} (1 - \cos \pi t ) \sin \pi x
+        </strong>
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \sin t \sin \pi x
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{1}{\pi^2} \sin \pi t \sin \pi x
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = \sin t \sin \pi x</td>
+      <td style="text-align:right;">3</td>
+      <td>неверный ответ</td>
+    </tr>
+    
+    <tr>
+      <td>u = \frac{1}{\pi^2} (1 - \cos \pi t ) \sin \pi x</td>
+      <td style="text-align:right;">1</td>
+      <td>верный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q2" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 2
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q2">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти решение начально-краевой задачи<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_%7Bt%7D%20-%20u_%7Bxx%7D%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%280%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_x%28%5Cpi%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28x%2C0%29%20%3D%20%5Csin%20%5Cfrac%7Bx%7D%7B%5C2%7D%20%2B%20%5Csin%20%5Cfrac%7B3x%7D%7B%5C2%7D%20</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \cos t ( \sin \frac{x}{\2} + \sin \frac{3x}{\2} )
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = e^{t}( \sin \frac{x}{\2} + \sin \frac{3x}{\2} )
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" checked="" disabled="">
+    
+        
+        <strong>
+            u = e^{ -t/4 } \sin \frac{x}{\2} + e^{ -9t/4 } \sin \frac{3x}{\2}
+        </strong>
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = e^{ t/4 } \sin \frac{x}{\2} + e^{ 9t/4 } \sin \frac{3x}{\2}
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = e^{ -t/4 } \sin \frac{x}{\2} + e^{ -9t/4 } \sin \frac{3x}{\2}</td>
+      <td style="text-align:right;">5</td>
+      <td>верный ответ</td>
+    </tr>
+    
+    <tr>
+      <td>u = e^{ t/4 } \sin \frac{x}{\2} + e^{ 9t/4 } \sin \frac{3x}{\2}</td>
+      <td style="text-align:right;">1</td>
+      <td>правильность неизвестна</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q3" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 3
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q3">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти решение начально-краевой задачи на плоскости<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_%7Bt%7D%20-%20%5CDelta%20u%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%280%2Cy%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28%5Cpi%2Cy%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28x%20%2C%200%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_y%28x%2C%5Cpi%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28x%2Cy%2C0%29%20%3D%20%5Csin%202x%20%5Csin%20%5Cfrac%7B3y%7D%7B2%7D%20</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \cos(-\frac{25t}{4}) \sin 2x \sin \frac{3y}{2}
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = e^{ \frac{25}{4} t } \sin 2x \sin \frac{3y}{2}
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" checked="" disabled="">
+    
+        
+        <strong>
+            u = e^{ -\frac{25}{4} t } \sin 2x \sin \frac{3y}{2}
+        </strong>
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = e^{ -13t } \sin 2x \sin 3y
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = e^{ -\frac{25}{4} t } \sin 2x \sin \frac{3y}{2}</td>
+      <td style="text-align:right;">3</td>
+      <td>верный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q4" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 4
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q4">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти ограниченное решение https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=u%28r%2C%5Cphi%29 уравнения Лапласа в круге https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20r%20%3C%201%20, https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%200%20%3C%20%5Cphi%20%3C%202%20%5Cpi%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20%5CDelta%20u%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%281%2C%5Cphi%29%20%3D%20%5Csin%5E3%20%5Cphi%20</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{\3}{4} r \cos \phi + \frac{r^3}{4} \cos 3 \phi
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = r \sin \phi + r^3 \sin 3 \phi
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{\3}{4} r \sin \phi - \frac{r^3}{4} \sin 3 \phi
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = r \cos \phi + r^3 \cos 3 \phi
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = \frac{\3}{4} r \cos \phi + \frac{r^3}{4} \cos 3 \phi</td>
+      <td style="text-align:right;">1</td>
+      <td>неверный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q5" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 5
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q5">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти ограниченное решение https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=u%28r%2C%5Cphi%29 уравнения Лапласа вне круга https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20r%20%3E%201%20, https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%200%20%3C%20%5Cphi%20%3C%202%20%5Cpi%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20%5CDelta%20u%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%281%2C%5Cphi%29%20%3D%20%5Csin%5E2%20%5Cphi%20</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{\1}{2r} \sin^2 \phi
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" checked="" disabled="">
+    
+        
+        <strong>
+            u = \frac{\1}{2} - \frac{1}{2r^2} \cos 2 \phi
+        </strong>
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{\1}{2} + \frac{1}{2r^2} \sin 2 \phi
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{\1}{2} - \frac{r^2}{2} \cos 2 \phi
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = \frac{\1}{2} + \frac{1}{2r^2} \sin 2 \phi</td>
+      <td style="text-align:right;">1</td>
+      <td>неверный ответ</td>
+    </tr>
+    
+    <tr>
+      <td>u = \frac{\1}{2} - \frac{1}{2r^2} \cos 2 \phi</td>
+      <td style="text-align:right;">1</td>
+      <td>верный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q6" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 6
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q6">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти решение начально-краевой задачи на плоскости<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_%7Btt%7D%20-%20%5CDelta%20u%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_x%280%2Cy%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28%5Cpi%2Cy%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28x%20%2C%200%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28x%2C%5Cpi%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28x%2Cy%2C0%29%20%3D%20%5Ccos%20%5Cfrac%7Bx%7D%7B2%7D%20%5Csin%20y%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_t%28x%2Cy%2C0%29%20%3D%200%20</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \sin(\frac{\sqrt{5}}{2} t) \cos \frac{x}{2} \sin y
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = e^{-\frac{\sqrt{5}}{2} t} \cos \frac{x}{2} \sin y
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = e^{\frac{\sqrt{5}}{2} t} \cos \frac{x}{2} \sin y
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" checked="" disabled="">
+    
+        
+        <strong>
+            u = \cos(\frac{\sqrt{5}}{2} t) \cos \frac{x}{2} \sin y
+        </strong>
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = \cos(\frac{\sqrt{5}}{2} t) \cos \frac{x}{2} \sin y</td>
+      <td style="text-align:right;">1</td>
+      <td>верный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q7" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 7
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q7">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти общее решение уравнения https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=xu_x%20%2B%20yu_y%20%3D%200 в области https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=x%20%3E%200, https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=y%20%3E0</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = F(xy), где F --- произвольная непрерывно дифференцируемая функция
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = A \frac{x}{y}, где A --- произвольная постоянная
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" checked="" disabled="">
+    
+        
+        <strong>
+            u = F(\frac{x}{y}), где F --- произвольная непрерывно дифференцируемая функция
+        </strong>
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{y}{x} + A, где A --- произвольная постоянная
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = A \frac{x}{y}, где A --- произвольная постоянная</td>
+      <td style="text-align:right;">1</td>
+      <td>неверный ответ</td>
+    </tr>
+    
+    <tr>
+      <td>u = \frac{y}{x} + A, где A --- произвольная постоянная</td>
+      <td style="text-align:right;">1</td>
+      <td>правильность неизвестна</td>
+    </tr>
+    
+    <tr>
+      <td>u = F(\frac{x}{y}), где F --- произвольная непрерывно дифференцируемая функция</td>
+      <td style="text-align:right;">1</td>
+      <td>верный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q8" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 8
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q8">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти общее решение уравнения<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%0A2u_%7Bxx%7D%20%2B%20u_%7Bxy%7D%20-%20u_%7Byy%7D%20-%206%28u_x%20%2B%20u_y%29%20%3D%200%0A</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" checked="" disabled="">
+    
+        
+        <strong>
+            u = F(x + 2y)e^{ 2(x - y) } + G(x-y), где F, G - произвольные дважды непрерывно дифференцируемые функции
+        </strong>
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = A e^{ 2(x-y) } + B, где A, B - произвольные постоянные
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = F(x + 2y) + G(x - y), где F, G - произвольные дважды непрерывно дифференцируемые функции
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = С e^{x-y} + F(x+2y), где С - произвольная постоянная, а F - произвольная функция
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = F(x + 2y)e^{ 2(x - y) } + G(x-y), где F, G - произвольные дважды непрерывно дифференцируемые функции</td>
+      <td style="text-align:right;">2</td>
+      <td>верный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q9" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 9
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q9">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Определить тип уравнения и привести его к каноническому виду<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%0Au_%7Bxx%7D%20%2B%20u_%7Bxy%7D%20-%202u_%7Byy%7D%20%2B%2015u_x%20%2B%2021u_y%20%3D%200%0A</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u_{zz} + u_z + u_t = 0 , параболический тип
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u_{zz} + u_{tt} + u_t = 0 , эллиптический тип
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u_{zt} = 0 , гиперболический тип
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" checked="" disabled="">
+    
+        
+        <strong>
+            u_{zt} + 4u_z + u_t = 0 , гиперболический тип
+        </strong>
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u_{zt} + 4u_z + u_t = 0 , гиперболический тип</td>
+      <td style="text-align:right;">2</td>
+      <td>верный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q10" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 10
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q10">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти решение задачи Коши для однородного волнового уравнения при https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20x%20%5Cin%20R%20 и https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20t%20%3E%200<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_%7Btt%7D%20-%20u_%7Bxx%7D%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%7C_%7Bt%20%3D%200%7D%20%3D%20e%5E%7B%20-x%5E2%20%7D%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_t%7C_%7Bt%20%3D%200%7D%20%3D%20%5Ccos%20x%20</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \cos(x+t) + \cos(x-t) + e^{ -(x+t)^2 } + e^{ -(x-t)^2 }
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" checked="" disabled="">
+    
+        
+        <strong>
+            u = \frac{1}{2} ( \sin(x-t) - \sin(x+t) + e^{ -(x+t)^2 } + e^{ -(x-t)^2 } )
+        </strong>
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{1}{2} ( \sin(x-t) + e^{ -(x-t)^2 } )
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{1}{2} ( \cos(x+t) + \cos(x-t) ) + e^{ -(x+t)^2 } + e^{ -(x-t)^2 } )
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = \frac{1}{2} ( \cos(x+t) + \cos(x-t) ) + e^{ -(x+t)^2 } + e^{ -(x-t)^2 } )</td>
+      <td style="text-align:right;">2</td>
+      <td>неверный ответ</td>
+    </tr>
+    
+    <tr>
+      <td>u = \cos(x+t) + \cos(x-t) + e^{ -(x+t)^2 } + e^{ -(x-t)^2 }</td>
+      <td style="text-align:right;">1</td>
+      <td>неверный ответ</td>
+    </tr>
+    
+    <tr>
+      <td>u = \frac{1}{2} ( \sin(x-t) - \sin(x+t) + e^{ -(x+t)^2 } + e^{ -(x-t)^2 } )</td>
+      <td style="text-align:right;">1</td>
+      <td>верный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q11" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 11
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q11">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти решение начально-краевой задачи<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_%7Btt%7D%20-%20u_%7Bxx%7D%20%3D%200%2C%20%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%280%2Ct%29%20%3D%200%2C%20%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_x%28%5Cpi%2Ct%29%20%3D%200%2C%20%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28x%2C0%29%20%3D%20%5Csin%20%5Cfrac%7Bx%7D%7B2%7D%2C%20%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_t%28x%2C0%29%20%3D%20%5Csin%20%5Cfrac%7B3x%7D%7B2%7D%20</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \cos \frac{t}{2} \sin \frac{x}{2} + \frac{2}{3} \cos \frac{3t}{2} \sin \frac{3x}{2}
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \sin \frac{t}{2} \sin \frac{x}{2} + \frac{2}{3} \sin \frac{3t}{2} \sin \frac{3x}{2}
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \sin \frac{x - t}{2} + \frac{2}{3} \sin \frac{3(x-t)}{2}
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" checked="" disabled="">
+    
+        
+        <strong>
+            u = \cos \frac{t}{2} \sin \frac{x}{2} + \frac{2}{3} \sin \frac{3t}{2} \sin \frac{3x}{2}
+        </strong>
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = \sin \frac{x - t}{2} + \frac{2}{3} \sin \frac{3(x-t)}{2}</td>
+      <td style="text-align:right;">3</td>
+      <td>неверный ответ</td>
+    </tr>
+    
+    <tr>
+      <td>u = \cos \frac{t}{2} \sin \frac{x}{2} + \frac{2}{3} \sin \frac{3t}{2} \sin \frac{3x}{2}</td>
+      <td style="text-align:right;">1</td>
+      <td>верный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q12" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 12
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q12">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти решение начально-краевой задачи<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_%7Bt%7D%20-%20u_%7Bxx%7D%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%280%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%281%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28x%2C0%29%20%3D%20%5Csin%20%5Cpi%20x%20-%20%5Csin%203%20%5Cpi%20x%20</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = e^{ - t } \sin \pi x - e^{ -9t } \sin 3 \pi x
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \cos \pi t (\sin \pi x - \sin 3 \pi x )
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" checked="" disabled="">
+    
+        
+        <strong>
+            u = e^{ -\pi^2 t } \sin \pi x - e^{ -9 \pi^2 t } \sin 3 \pi x
+        </strong>
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = e^{ - t } (\sin \pi x - \sin 3 \pi x )
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = e^{ -\pi^2 t } \sin \pi x - e^{ -9 \pi^2 t } \sin 3 \pi x</td>
+      <td style="text-align:right;">2</td>
+      <td>верный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q13" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 13
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q13">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти решение начально-краевой задачи на плоскости<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_%7Bt%7D%20-%20%5CDelta%20u%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_x%280%2Cy%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28%5Cpi%2Cy%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28x%20%2C%200%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28x%2C%5Cpi%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28x%2Cy%2C0%29%20%3D%20%5Ccos%20%5Cfrac%7Bx%7D%7B2%7D%20%5Csin%20y%20</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" checked="" disabled="">
+    
+        
+        <strong>
+            u = e^{ -\frac{5}{4} t } \cos \frac{x}{2} \sin y
+        </strong>
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = e^{ -\frac{5}{4} t } \sin \frac{x}{2} \sin y
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = e^{ -t } \sin x \sin y
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = e^{ -\frac{5}{4} t } \sin x \sin y
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = e^{ -\frac{5}{4} t } \cos \frac{x}{2} \sin y</td>
+      <td style="text-align:right;">1</td>
+      <td>верный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q14" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 14
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q14">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти ограниченное решение https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=u%28r%2C%5Cphi%29 уравнения Лапласа в круге https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20r%20%3C%201%20, https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%200%20%3C%20%5Cphi%20%3C%202%20%5Cpi%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20%5CDelta%20u%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%281%2C%5Cphi%29%20%3D%20%5Ccos%5E3%20%5Cphi%20</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{\1}{2} \cos \phi + \frac{r^2}{2} \cos 2 \phi
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{\3}{4} r \sin \phi + \frac{r^3}{4} \sin 3 \phi
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{\3}{4} r \cos \phi + \frac{r^3}{4} \cos 3 \phi
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = r \cos \phi + \frac{r^3}{4} \sin 3 \phi
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = r \cos \phi + \frac{r^3}{4} \sin 3 \phi</td>
+      <td style="text-align:right;">2</td>
+      <td>неверный ответ</td>
+    </tr>
+    
+    <tr>
+      <td>u = \frac{\3}{4} r \sin \phi + \frac{r^3}{4} \sin 3 \phi</td>
+      <td style="text-align:right;">1</td>
+      <td>правильность неизвестна</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q15" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 15
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q15">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти ограниченное решение https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=u%28r%2C%5Cphi%29 уравнения Лапласа вне круга при https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20r%20%3E%201%20, https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%200%20%3C%20%5Cphi%20%3C%202%20%5Cpi%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20%5CDelta%20u%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%281%2C%5Cphi%29%20%3D%20%5Ccos%5E2%20%5Cphi%20</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{\1}{2} + \frac{1}{2r^2} \sin 2 \phi
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{\1}{2} + \frac{r^2}{2} \cos 2 \phi
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = 1 + r \cos^2 \phi
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{\1}{2} + \frac{1}{2r^2} \cos 2 \phi
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = 1 + r \cos^2 \phi</td>
+      <td style="text-align:right;">2</td>
+      <td>неверный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q16" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 16
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q16">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти решение начально-краевой задачи на плоскости<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_%7Btt%7D%20-%20%5CDelta%20u%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%280%2Cy%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_x%28%5Cpi%2Cy%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28x%20%2C%200%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28x%2C%5Cpi%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28x%2Cy%2C0%29%20%3D%20%5Csin%20%5Cfrac%7B3x%7D%7B2%7D%20%5Csin%202y%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_t%28x%2Cy%2C0%29%20%3D%200%20</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{2}{5} \sin(\frac{5t}{2}) \sin \frac{3x}{2} \sin 2y
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{2}{5} e^{ \frac{5t}{2} } \sin \frac{3x}{2} \sin 2y
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{2}{5} e^{ -\frac{5t}{2} } \sin \frac{3x}{2} \sin 2y
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{2}{5} \cos(\frac{5t}{2}) \sin \frac{3x}{2} \sin 2y
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = \frac{2}{5} e^{ \frac{5t}{2} } \sin \frac{3x}{2} \sin 2y</td>
+      <td style="text-align:right;">1</td>
+      <td>неверный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q17" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 17
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q17">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти общее решение уравнения https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=xu_x%20-%20y%5E2u_y%20%3D%200 в области https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=x%20%3E%200, https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=y%20%3E0</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = A \ln x + y, где A --- произвольная постоянная
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" checked="" disabled="">
+    
+        
+        <strong>
+            u = F(\ln x - y^{-1}), где F --- произвольная непрерывно дифференцируемая функция
+        </strong>
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = F(y\ln x), где F --- произвольная непрерывно дифференцируемая функция
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \ln x - 1/y + A, где A --- произвольная постоянная
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = F(y\ln x), где F --- произвольная непрерывно дифференцируемая функция</td>
+      <td style="text-align:right;">1</td>
+      <td>неверный ответ</td>
+    </tr>
+    
+    <tr>
+      <td>u = F(\ln x - y^{-1}), где F --- произвольная непрерывно дифференцируемая функция</td>
+      <td style="text-align:right;">3</td>
+      <td>верный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q18" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 18
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q18">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти общее решение уравнения<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%0A2u_%7Bxx%7D%20%2B%20u_%7Bxy%7D%20-%20u_%7Byy%7D%20%2B%206%282u_x%20-%20u_y%29%20%3D%200%0A</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" checked="" disabled="">
+    
+        
+        <strong>
+            u = F(x - y)e^{ -2x - 4y } + G(x+2y), где F, G - произвольные дважды непрерывно дифференцируемые функции
+        </strong>
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = A e^{ -2x -4y } + B, где A, B - произвольные постоянные
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = A { (x+2y) }^2 + B(x-y), где A, B - произвольные постоянные
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = F(x - y) + G(x+2y), где F, G - произвольные дважды непрерывно дифференцируемые функции
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = A e^{ -2x -4y } + B, где A, B - произвольные постоянные</td>
+      <td style="text-align:right;">2</td>
+      <td>неверный ответ</td>
+    </tr>
+    
+    <tr>
+      <td>u = F(x - y)e^{ -2x - 4y } + G(x+2y), где F, G - произвольные дважды непрерывно дифференцируемые функции</td>
+      <td style="text-align:right;">3</td>
+      <td>верный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q19" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 19
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q19">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Определить тип уравнения и привести его к каноническому виду<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%0Au_%7Bxx%7D%20-%20u_%7Bxy%7D%20-%202u_%7Byy%7D%20%2B%206u_x%20-%203u_y%20%3D%200%0A</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u_{zt} + u_z + u_t = 0 , гиперболический тип
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u_{zz} - 2u_z = 0 , параболический тип
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u_{zz} + u_{tt} = 0 , эллиптический тип
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u_{zt} = 0 , гиперболический тип
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u_{zz} - 2u_z = 0 , параболический тип</td>
+      <td style="text-align:right;">1</td>
+      <td>неверный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q20" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 20
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q20">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти решение задачи Коши для однородного волнового уравнения при https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20x%20%5Cin%20R%20 и https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20t%20%3E%200<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_%7Btt%7D%20-%204%20u_%7Bxx%7D%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%7C_%7Bt%20%3D%200%7D%20%3D%202%5Ccos%203x%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_t%7C_%7Bt%20%3D%200%7D%20%3D%20%5Csin%20x%20</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{1}{2} \cos(x+t) - \frac{1}{2} \cos(x-t) + \cos 3(x-t) + \cos 3(x+t)
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" checked="" disabled="">
+    
+        
+        <strong>
+            u = \frac{1}{4} \cos(x+2t) - \frac{1}{4} \cos(x-2t) + \cos 3(x-2t) + \cos 3(x+2t)
+        </strong>
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{1}{4} \cos(x) - \frac{1}{4} \cos(t) + \cos 3(x-t) + \cos 3(x+t)
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \sin(x+2t) + \sin(x-2t) + \cos 3(x-2t) + \cos 3(x+2t)
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = \sin(x+2t) + \sin(x-2t) + \cos 3(x-2t) + \cos 3(x+2t)</td>
+      <td style="text-align:right;">1</td>
+      <td>неверный ответ</td>
+    </tr>
+    
+    <tr>
+      <td>u = \frac{1}{4} \cos(x+2t) - \frac{1}{4} \cos(x-2t) + \cos 3(x-2t) + \cos 3(x+2t)</td>
+      <td style="text-align:right;">3</td>
+      <td>верный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q21" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 21
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q21">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти решение начально-краевой задачи<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_%7Btt%7D%20-%20u_%7Bxx%7D%20%3D%200%2C%20%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_x%280%2Ct%29%20%3D%200%2C%20%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28%5Cpi%2Ct%29%20%3D%200%2C%20%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28x%2C0%29%20%3D%20%5Ccos%20%5Cfrac%7Bx%7D%7B2%7D%2C%20%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_t%28x%2C0%29%20%3D%20%5Ccos%20%5Cfrac%7B3x%7D%7B2%7D%20</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \sin \frac{x - t}{2} + \frac{2}{3} \cos \frac{3(x-t)}{2}
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \cos \frac{t}{2} \cos \frac{x}{2} + \frac{2}{3} \cos \frac{3t}{2} \sin \frac{3x}{2}
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \cos \frac{x - t}{2} + \frac{2}{3} \sin \frac{3(x-t)}{2}
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" checked="" disabled="">
+    
+        
+        <strong>
+            u = \cos \frac{t}{2} \cos \frac{x}{2} + \frac{2}{3} \sin \frac{3t}{2} \cos \frac{3x}{2}
+        </strong>
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = \cos \frac{t}{2} \cos \frac{x}{2} + \frac{2}{3} \cos \frac{3t}{2} \sin \frac{3x}{2}</td>
+      <td style="text-align:right;">1</td>
+      <td>неверный ответ</td>
+    </tr>
+    
+    <tr>
+      <td>u = \cos \frac{t}{2} \cos \frac{x}{2} + \frac{2}{3} \sin \frac{3t}{2} \cos \frac{3x}{2}</td>
+      <td style="text-align:right;">3</td>
+      <td>верный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q22" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 22
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q22">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти решение начально-краевой задачи https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_%7Bt%7D%20-%20u_%7Bxx%7D%20%3D%20%5Csin%20%5Cpi%20x%2C%20 https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%280%2Ct%29%20%3D%200%2C%20 https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%281%2Ct%29%20%3D%200%2C%20 https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28x%2C0%29%20%3D%200%20</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{1}{\pi^2} (1 - e^{t} ) \sin \pi x
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = (1 - e^{ - t } ) \sin \pi x
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" checked="" disabled="">
+    
+        
+        <strong>
+            u = \frac{1}{\pi^2} (1 - e^{ - \pi^2 t } ) \sin \pi x
+        </strong>
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = (1 - \cos t ) \sin \pi x
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = \frac{1}{\pi^2} (1 - e^{ - \pi^2 t } ) \sin \pi x</td>
+      <td style="text-align:right;">1</td>
+      <td>верный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q23" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 23
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q23">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти решение начально-краевой задачи на плоскости<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_%7Bt%7D%20-%20%5CDelta%20u%20%3D%20%5Csin%202x%20%5Csin%20%5Cfrac%7B3y%7D%7B2%7D%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%280%2Cy%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28%5Cpi%2Cy%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28x%20%2C%200%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_y%28x%2C%5Cpi%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28x%2Cy%2C0%29%20%3D%200%20</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \cos \frac{5t}{2}  \sin 2x \sin \frac{3y}{2}
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \cos \frac{5t}{2}  \sin 2x \cos \frac{3y}{2}
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = e^{ -\frac{25t}{4} }  \sin 2x \sin \frac{3y}{2}
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{4}{25} (1 - e^{ -\frac{25t}{4} })  \sin 2x \sin \frac{3y}{2}
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = \cos \frac{5t}{2}  \sin 2x \cos \frac{3y}{2}</td>
+      <td style="text-align:right;">1</td>
+      <td>неверный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q24" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 24
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q24">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти ограниченное решение https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=u%28r%2C%5Cphi%29 уравнения Лапласа в круге https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20r%20%3C%201%20, https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%200%20%3C%20%5Cphi%20%3C%202%20%5Cpi%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20%5CDelta%20u%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%281%2C%5Cphi%29%20%3D%20%5Csin%5E2%20%5Cphi%20</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{\1}{2} - \frac{1}{2r^2} \cos 2 \phi
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{\1}{2} + \frac{r^2}{2} \sin 2 \phi
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{\1}{2} - \frac{r^2}{2} \cos 2 \phi
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = 1 + r \sin^2 \phi
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = \frac{\1}{2} - \frac{1}{2r^2} \cos 2 \phi</td>
+      <td style="text-align:right;">2</td>
+      <td>неверный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q25" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 25
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q25">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти ограниченное решение https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=u%28r%2C%5Cphi%29 уравнения Лапласа вне круга https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20r%20%3E%201%20, https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%200%20%3C%20%5Cphi%20%3C%202%20%5Cpi%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20%5CDelta%20u%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%281%2C%5Cphi%29%20%3D%20%5Ccos%5E3%20%5Cphi%20</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{\1}{r} \cos \phi + \frac{1}{4r^3} \sin 3 \phi
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{\3}{4r} \sin \phi + \frac{1}{4r^3} \sin 3 \phi
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{\3r}{4} \cos \phi + \frac{r^3}{4} \cos 3 \phi
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{\3}{4r} \cos \phi + \frac{1}{4 r^3} \cos 3 \phi
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = \frac{\3r}{4} \cos \phi + \frac{r^3}{4} \cos 3 \phi</td>
+      <td style="text-align:right;">1</td>
+      <td>неверный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q26" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 26
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q26">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти решение начально-краевой задачи на плоскости<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_%7Btt%7D%20-%20%5CDelta%20u%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%280%2Cy%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28%5Cpi%2Cy%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28x%2C0%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_y%28x%2C%5Cpi%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28x%2Cy%2C0%29%20%3D%20%5Csin%202x%20%5Csin%20%5Cfrac%7B3y%7D%7B2%7D%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_t%28x%2Cy%2C0%29%20%3D%200%20</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \sin(\frac{\5}{2} t) \sin 2x \sin \frac{3y}{2}
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = e^{ \frac{\5}{2} t } \sin 2x \sin \frac{3y}{2}
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = e^{-\frac{\5}{2} t } \sin 2x \sin \frac{3y}{2}
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \cos(\frac{\5}{2} t) \sin 2x \sin \frac{3y}{2}
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = \sin(\frac{\5}{2} t) \sin 2x \sin \frac{3y}{2}</td>
+      <td style="text-align:right;">1</td>
+      <td>неверный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q27" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 27
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q27">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти общее решение уравнения https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=y%5E2u_x%20%2B%20xu_y%20%3D%200 в области https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=x%20%3E%200, https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=y%20%3E0</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = F(y^2 + x), где F --- произвольная непрерывно дифференцируемая функция
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" checked="" disabled="">
+    
+        
+        <strong>
+            u = F(y^3 - 3x^2/2), где F --- произвольная непрерывно дифференцируемая функция
+        </strong>
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = A(y^2 + x), где A --- произвольная постоянная
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{y^3}{3} - \frac{x^2}{2} + A, где A --- произвольная постоянная
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = F(y^3 - 3x^2/2), где F --- произвольная непрерывно дифференцируемая функция</td>
+      <td style="text-align:right;">1</td>
+      <td>верный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q28" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 28
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q28">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти общее решение уравнения<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%0Au_%7Bxx%7D%20%2B%202u_%7Bxy%7D%20-%203u_%7Byy%7D%20%2B%20u_x%20-%20u_y%20%3D%200%0A</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = A e^{ x+y } + B, где A, B - произвольные постоянные
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = F(3x - y) + G(x+y), где F, G - произвольные дважды непрерывно дифференцируемые функции
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = A e^{ - \frac{x+y}{4} } + B, где A, B - произвольные постоянные
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" checked="" disabled="">
+    
+        
+        <strong>
+            u = F(3x - y)e^{ - \frac{x+y}{4} } + G(x+y), где F, G - произвольные дважды непрерывно дифференцируемые функции
+        </strong>
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = F(3x - y)e^{ - \frac{x+y}{4} } + G(x+y), где F, G - произвольные дважды непрерывно дифференцируемые функции</td>
+      <td style="text-align:right;">1</td>
+      <td>верный ответ</td>
+    </tr>
+    
+    <tr>
+      <td>u = F(3x - y) + G(x+y), где F, G - произвольные дважды непрерывно дифференцируемые функции</td>
+      <td style="text-align:right;">1</td>
+      <td>неверный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q29" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 29
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q29">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Определить тип уравнения и привести его к каноническому виду<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%0A2u_%7Bxx%7D%20%2B%20u_%7Bxy%7D%20-%20u_%7Byy%7D%20-%206%28u_x%20%2B%20u_y%29%20%3D%200%0A</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" checked="" disabled="">
+    
+        
+        <strong>
+            u_{zt} - 2u_t = 0 , гиперболический тип
+        </strong>
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u_{zt} = 0 , гиперболический тип
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u_{zz} + u_{tt} + 2u_t = 0 , эллиптический тип
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u_{zz} = 0 , параболический тип
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u_{zz} + u_{tt} + 2u_t = 0 , эллиптический тип</td>
+      <td style="text-align:right;">2</td>
+      <td>неверный ответ</td>
+    </tr>
+    
+    <tr>
+      <td>u_{zt} - 2u_t = 0 , гиперболический тип</td>
+      <td style="text-align:right;">3</td>
+      <td>верный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q30" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 30
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q30">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти решение задачи Коши для однородного волнового уравнения при https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20x%20%5Cin%20R%20 и https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20t%20%3E%200<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_%7Btt%7D%20-%20u_%7Bxx%7D%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%7C_%7Bt%20%3D%200%7D%20%3D%202%5Ccos%203x%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_t%7C_%7Bt%20%3D%200%7D%20%3D%20%5Csin%20x%20</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{1}{2} \sin(x+t) - \frac{1}{2} \sin(x-t) + \cos 3(x-t) - \cos 3(x+t)
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{1}{2} \cos(x+t) - \frac{1}{2} \cos(x-t) + \cos 3x + \cos 3t
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{1}{2} \cos(x+t) - \frac{1}{2} \cos(x-t) + \cos 3(x-t) + \cos 3(x+t)
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \cos(x+t) - \cos(x-t) + \cos 3(x-t) + \cos 3(x+t)
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = \cos(x+t) - \cos(x-t) + \cos 3(x-t) + \cos 3(x+t)</td>
+      <td style="text-align:right;">1</td>
+      <td>неверный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q31" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 31
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q31">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти решение начально-краевой задачи<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_%7Bt%7D%20-%20u_%7Bxx%7D%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_x%280%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28%5Cpi%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28x%2C0%29%20%3D%20%5Ccos%20%5Cfrac%7Bx%7D%7B%5C2%7D%20%2B%20%5Ccos%20%5Cfrac%7B3x%7D%7B%5C2%7D%20</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = e^{ t/4 } \cos \frac{x}{\2} + e^{ 9t/4 } \cos \frac{3x}{\2}
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \cos t ( \cos \frac{x}{\2} + \cos \frac{3x}{\2} )
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = e^{ -t }( \cos \frac{x}{\2} + \cos \frac{3x}{\2} )
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" checked="" disabled="">
+    
+        
+        <strong>
+            u = e^{ -t/4 } \cos \frac{x}{\2} + e^{ -9t/4 } \cos \frac{3x}{\2}
+        </strong>
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = e^{ -t/4 } \cos \frac{x}{\2} + e^{ -9t/4 } \cos \frac{3x}{\2}</td>
+      <td style="text-align:right;">2</td>
+      <td>верный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q32" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 32
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q32">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти решение начально-краевой задачи на плоскости<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_%7Bt%7D%20-%20%5CDelta%20u%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%280%2Cy%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28%5Cpi%2Cy%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_y%28x%2C0%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28x%2C%5Cpi%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28x%2Cy%2C0%29%20%3D%20%5Csin%20x%20%5Ccos%20%5Cfrac%7B3y%7D%7B2%7D%20</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = e^{ -\frac{13t}{4} } \cos x \sin \frac{3y}{2}
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = e^{ \frac{13t}{4} } \sin x \cos \frac{3y}{2}
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = cos( \frac{\sqrt{13t}}{2} ) \sin x \cos \frac{3y}{2}
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = e^{ -\frac{13t}{4} } \sin x \cos \frac{3y}{2}
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = e^{ -\frac{13t}{4} } \cos x \sin \frac{3y}{2}</td>
+      <td style="text-align:right;">2</td>
+      <td>неверный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q33" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 33
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q33">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти ограниченное решение https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=u%28r%2C%5Cphi%29 уравнения Лапласа в круге https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20r%20%3C%201%20, https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%200%20%3C%20%5Cphi%20%3C%202%20%5Cpi%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20%5CDelta%20u%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%281%2C%5Cphi%29%20%3D%20%5Ccos%5E2%20%5Cphi%20</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = 1 + r \cos^2 \phi
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{\1}{2} + \frac{1}{2r^2} \cos 2 \phi
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" checked="" disabled="">
+    
+        
+        <strong>
+            u = \frac{\1}{2} + \frac{r^2}{2} \cos 2 \phi
+        </strong>
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{\1}{2} + \frac{r^2}{2} \sin 2 \phi
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = \frac{\1}{2} + \frac{r^2}{2} \cos 2 \phi</td>
+      <td style="text-align:right;">4</td>
+      <td>верный ответ</td>
+    </tr>
+    
+    <tr>
+      <td>u = \frac{\1}{2} + \frac{1}{2r^2} \cos 2 \phi</td>
+      <td style="text-align:right;">1</td>
+      <td>неверный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q34" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 34
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q34">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти решение начально-краевой задачи на плоскости<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_%7Btt%7D%20-%20%5CDelta%20u%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%280%2Cy%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_x%28%5Cpi%2Cy%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28x%20%2C%200%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28x%2C%5Cpi%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28x%2Cy%2C0%29%20%3D%20%5Csin%20%5Cfrac%7B3x%7D%7B2%7D%20%5Csin%202y%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_t%28x%2Cy%2C0%29%20%3D%200%20</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = e^{ \frac{5t}{2} } \sin \frac{3x}{2} \sin 2y
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \sin(\frac{5t}{2}) \sin \frac{3x}{2} \sin 2y
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = e^{ -\frac{5t}{2} } \sin \frac{3x}{2} \sin 2y
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \cos(\frac{5t}{2}) \sin \frac{3x}{2} \sin 2y
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = \sin(\frac{5t}{2}) \sin \frac{3x}{2} \sin 2y</td>
+      <td style="text-align:right;">4</td>
+      <td>неверный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q35" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 35
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q35">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти решение задачи Коши для однородного волнового уравнения при https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20x%20%5Cin%20R%20 и https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20t%20%3E%200<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_%7Btt%7D%20-%20u_%7Bxx%7D%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%7C_%7Bt%20%3D%200%7D%20%3D%20%5Csin%20x%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_t%7C_%7Bt%20%3D%200%7D%20%3D%20x%20</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = xt + \frac{1}{2} \sin(x)
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = x + t + \frac{1}{2} \sin(x + t)
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = x - t + \frac{1}{2} \sin(x - t)
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = xt + \frac{1}{2} \sin(x-t) + \frac{1}{2} \sin(x+t)
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = xt + \frac{1}{2} \sin(x)</td>
+      <td style="text-align:right;">1</td>
+      <td>правильность неизвестна</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q36" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 36
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q36">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти решение начально-краевой задачи на плоскости<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_%7Bt%7D%20-%20%5CDelta%20u%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%280%2Cy%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_x%28%5Cpi%2Cy%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28x%20%2C%200%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28x%2C%5Cpi%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28x%2Cy%2C0%29%20%3D%20%5Csin%20%5Cfrac%7B3x%7D%7B2%7D%20%5Csin%202y%20</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{3}{2} e^{ -t } \sin x \sin y
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" checked="" disabled="">
+    
+        
+        <strong>
+            u = e^{ -\frac{25t}{4} } \sin \frac{3x}{2} \sin 2y
+        </strong>
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = e^{ \frac{25t}{4} } \sin \frac{3x}{2} \sin 2y
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = cos( \frac{5t}{2} ) \sin \frac{3x}{2} \sin 2y
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = e^{ -\frac{25t}{4} } \sin \frac{3x}{2} \sin 2y</td>
+      <td style="text-align:right;">1</td>
+      <td>верный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q37" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 37
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q37">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти ограниченное решение https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=u%28r%2C%5Cphi%29 уравнения Лапласа вне круга https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20r%20%3E%201%20, https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%200%20%3C%20%5Cphi%20%3C%202%20%5Cpi%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20%5CDelta%20u%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%281%2C%5Cphi%29%20%3D%20%5Csin%5E3%20%5Cphi%20</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{\3r}{4} \cos \phi - \frac{r^3}{4} \cos 3 \phi
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{\3r}{4} \sin \phi - \frac{r^3}{4} \sin 3 \phi
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{\3}{4r} \cos \phi - \frac{1}{4r^3} \sin 3 \phi
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" checked="" disabled="">
+    
+        
+        <strong>
+            u = \frac{\3}{4r} \sin \phi - \frac{1}{4r^3} \sin 3 \phi
+        </strong>
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = \frac{\3}{4r} \cos \phi - \frac{1}{4r^3} \sin 3 \phi</td>
+      <td style="text-align:right;">1</td>
+      <td>правильность неизвестна</td>
+    </tr>
+    
+    <tr>
+      <td>u = \frac{\3r}{4} \sin \phi - \frac{r^3}{4} \sin 3 \phi</td>
+      <td style="text-align:right;">1</td>
+      <td>неверный ответ</td>
+    </tr>
+    
+    <tr>
+      <td>u = \frac{\3}{4r} \sin \phi - \frac{1}{4r^3} \sin 3 \phi</td>
+      <td style="text-align:right;">2</td>
+      <td>верный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q38" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 38
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q38">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти решение начально-краевой задачи на плоскости<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_%7Btt%7D%20-%20%5CDelta%20u%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%280%2Cy%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28%5Cpi%2Cy%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_y%28x%2C0%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28x%2C%5Cpi%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28x%2Cy%2C0%29%20%3D%20%5Csin%202x%20%5Ccos%20%5Cfrac%7B3y%7D%7B2%7D%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_t%28x%2Cy%2C0%29%20%3D%200%20</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = e^{ -\frac{5t}{2} } \sin 2x \cos \frac{3y}{2}
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \sin(\frac{5t}{2}) \sin 2x \cos \frac{3y}{2}
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \cos(\frac{5t}{2}) \sin 2x \cos \frac{3y}{2}
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = e^{ \frac{5t}{2} } \sin 2x \cos \frac{3y}{2}
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = e^{ \frac{5t}{2} } \sin 2x \cos \frac{3y}{2}</td>
+      <td style="text-align:right;">1</td>
+      <td>правильность неизвестна</td>
+    </tr>
+    
+    <tr>
+      <td>u = \sin(\frac{5t}{2}) \sin 2x \cos \frac{3y}{2}</td>
+      <td style="text-align:right;">1</td>
+      <td>неверный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q39" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 39
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q39">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти общее решение уравнения https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=yu_x%20-%20xu_y%20%3D%200 в области https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=x%20%3E%200, https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=y%20%3E0</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = F(x^2 + y^2), где F --- произвольная непрерывно дифференцируемая функция
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = A(x^2 + y^2), где A --- произвольная постоянная
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{x^2}{2} + \frac{y^2}{2} + A, где A --- произвольная постоянная
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = F(x^2 - y^2), где F --- произвольная непрерывно дифференцируемая функция
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = \frac{x^2}{2} + \frac{y^2}{2} + A, где A --- произвольная постоянная</td>
+      <td style="text-align:right;">1</td>
+      <td>неверный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q40" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 40
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q40">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Определить тип уравнения и привести его к каноническому виду<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%0Au_%7Bxx%7D%20%2B%20u_%7Bxy%7D%20-%202u_%7Byy%7D%20-%206u_x%20-%203u_y%20%3D%200%0A</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u_{zz} + u_t = 0 , параболический тип
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u_{zt} = 0 , гиперболический тип
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u_{zz} + u_{tt} = 0 , эллиптический тип
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u_{zt} - u_z - u_t = 0 , гиперболический тип
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u_{zt} - u_z - u_t = 0 , гиперболический тип</td>
+      <td style="text-align:right;">1</td>
+      <td>правильность неизвестна</td>
+    </tr>
+    
+    <tr>
+      <td>u_{zz} + u_t = 0 , параболический тип</td>
+      <td style="text-align:right;">1</td>
+      <td>неверный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q41" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 41
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q41">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти решение начально-краевой задачи на плоскости<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_%7Bt%7D%20-%20%5CDelta%20u%20%3D%20%5Csin%20x%20%5Ccos%20%5Cfrac%7B3y%7D%7B2%7D%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%280%2Cy%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28%5Cpi%2Cy%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_y%28x%2C0%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28x%2C%5Cpi%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28x%2Cy%2C0%29%20%3D%200%20</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = cos( \frac{\sqrt{13t}}{2} ) \sin x \cos \frac{3y}{2}
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = e^{ -\frac{13t}{4} } \sin x \cos \frac{3y}{2}
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" checked="" disabled="">
+    
+        
+        <strong>
+            u = \frac{4}{13} (1 - e^{ -\frac{13t}{4} })  \sin x \cos \frac{3y}{2}
+        </strong>
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = cos( \frac{\sqrt{13t}}{2} ) \sin x \sin \frac{3y}{2}
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = \frac{4}{13} (1 - e^{ -\frac{13t}{4} })  \sin x \cos \frac{3y}{2}</td>
+      <td style="text-align:right;">1</td>
+      <td>верный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+            <div class="row">
+                
+
+<div id="q42" class="card col-md-7 mb-4 mx-auto px-0">
+    <div class="card-header">
+        <h5 class="card-title">
+            Вопрос 42
+            <a class="anchor-link" aria-label="Anchor" href="https://syncshare.naloaty.me/app/quiz/view/?moodleHost=moodle_uio_csu_ru&amp;quizId=191333#q42">
+                
+            </a>
+        </h5>
+    </div>
+    <div class="card-body">
+        
+            <p>Найти решение начально-краевой задачи на плоскости<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_%7Btt%7D%20-%20%5CDelta%20u%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%280%2Cy%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28%5Cpi%2Cy%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_y%28x%2C0%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28x%2C%5Cpi%2Ct%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u%28x%2Cy%2C0%29%20%3D%200%2C%20<br>https://moodle.uio.csu.ru/filter/tex/displaytex.php?texexp=%20u_t%28x%2Cy%2C0%29%20%3D%20%5Csin%202x%20%5Ccos%20%5Cfrac%7B3y%7D%7B2%7D%20</p>
+            
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \frac{2}{5} e^{ \frac{5t}{2} } \sin 2x \cos \frac{3y}{2}
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = \cos(\frac{5t}{2}) \sin 2x \cos \frac{3y}{2}
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" checked="" disabled="">
+    
+        
+        <strong>
+            u = \frac{2}{5} \sin(\frac{5t}{2}) \sin 2x \cos \frac{3y}{2}
+        </strong>
+        
+    <br>
+
+    
+        <input type="radio" class="task-list-item-checkbox" disabled="">
+    
+        
+            u = e^{ -\frac{5t}{2} } \sin 2x \cos \frac{3y}{2}
+        
+    <br>
+
+
+<p>Статистика: </p>
+
+
+    <table class="table table-bordered table-striped">
+    
+    <thead>
+    <tr>
+      <th>Вариант ответа</th>
+      <th style="text-align:right;">Выбрали этот вариант</th>
+      <th>Правильность</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>u = \frac{2}{5} \sin(\frac{5t}{2}) \sin 2x \cos \frac{3y}{2}</td>
+      <td style="text-align:right;">1</td>
+      <td>верный ответ</td>
+    </tr>
+    
+    </tbody>
+    
+    </table>
+
+        
+    </div>
+
+</div>
+            </div>
+
+        
+    <p>
+    </p></div>
+</div>
+<script src="./урчп_files/bootstrap.bundle.min.js.Без названия" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async="" src="./урчп_files/tex-mml-chtml.js.Без названия"></script>
+<script src="./урчп_files/highlight.min.js.Без названия" integrity="sha512-D9gUyxqja7hBtkWpPWGt9wfbfaMGVt9gnyCvYa+jojwwPHLCzUm5i8rpk7vD7wNee9bA35eYIjobYPaQuKS1MQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./урчп_files/highlightjs-line-numbers.min.js.Без названия"></script>
+<script src="./урчп_files/highlightjs-copy.min.js.Без названия"></script>
+<script>
+    hljs.highlightAll();
+    hljs.initLineNumbersOnLoad();
+    hljs.addPlugin(new CopyButtonPlugin());
+</script>
+
+
+</body></html>
